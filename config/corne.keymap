@@ -61,9 +61,9 @@
 // |      |     |     |     |     |     |   |  0  |  1  |  2  |  3  |     |     |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &bootloader &none    &none    &none    &none    &none    &rgb_ug RGB_COLOR_HSB(60,100,100) &kp 7    &kp 8    &kp 9    &none    &none
-   &none       &none    &none    &none    &none    &none    &none    &kp 4    &kp 5    &kp 6    &none    &none
-   &none       &none    &none    &none    &none    &none    &kp 0    &kp 1    &kp 2    &kp 3    &none    &none
+   &bootloader &none &none &none &none &none &rgb_ug RGB_HSV 60 100 100 &kp 7 &kp 8 &kp 9 &none &none
+   &none       &none &none &none &none &none &none    &kp 4    &kp 5    &kp 6    &none    &none
+   &none       &none &none &none &none &none &kp 0    &kp 1    &kp 2    &kp 3    &none    &none
    &kp LGUI    &trans   &kp SPC  &kp ENT  &trans   &kp RALT
                         >;
                 };
